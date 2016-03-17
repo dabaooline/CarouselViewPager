@@ -1,12 +1,11 @@
 package com.example;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 
 import com.baoli.CarouselViewPager;
 import com.baoli.CarouselViewPagerAdapter;
@@ -29,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         viewPager = (CarouselViewPager) findViewById(R.id.viewPager);
         mViewList = new ArrayList<>();
+
+
 
         carouselViewPagerAdapter = new CarouselViewPagerAdapter(mViewList);
         viewPager.setAdapter(carouselViewPagerAdapter);
