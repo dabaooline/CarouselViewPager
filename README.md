@@ -1,0 +1,3 @@
+# CarouselViewPager
+CarouselViewPager可以自动轮播的ViewPager
+
